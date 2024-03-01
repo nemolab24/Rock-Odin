@@ -1,0 +1,29 @@
+body {
+  background-color: blanchedalmond;
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+#fullContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 80vh;
+  width: 60vw;
+  background-color: white;
+  gap: 20px;
+  padding: 20px;
+}
+#choices {
+  flex: 2;
+  display: flex;
+}
+
+#choices div {
+  flex: 1;
+}
+
+#score {
+  flex: 1;
+}
